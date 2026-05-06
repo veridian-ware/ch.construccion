@@ -75,7 +75,7 @@ export function Hero() {
             transition={{ duration: 1, delay: 0.6, ease: [0.16, 1, 0.3, 1] }}
             className="mt-10"
           >
-            <p className="max-w-md text-sm md:text-base opacity-80 balance">
+            <p className="font-display max-w-md text-sm md:text-base leading-[0.88] tracking-tightest opacity-80 balance">
               Somos un grupo que construye cada detalle bajo el mismo techo.
               Construcción, instalaciones y muebles a medida, pensados como una
               sola pieza.
