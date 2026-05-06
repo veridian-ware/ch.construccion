@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -12,10 +13,20 @@ export async function generateMetadata({
   params
 }: {
   params: Promise<{ slug: string }>;
-}) {
+}): Promise<Metadata> {
   const { slug } = await params;
   const s = services.find((x) => x.slug === slug);
-  return { title: s ? `${s.name} — CH construcción` : "Servicio" };
+  if (!s) return { title: "Servicio" };
+  return {
+    title: `${s.name} en La Matanza`,
+    description: `${s.description} Servicio en Ramos Mejía, San Justo, Isidro Casanova, Laferrere y alrededores (La Matanza, Zona Oeste).`,
+    alternates: { canonical: `https://chconstruccion.com.ar/servicios/${s.slug}` },
+    openGraph: {
+      title: `${s.name} · CH Construcción`,
+      description: s.tagline,
+      images: [s.image]
+    }
+  };
 }
 
 export default async function ServicioDetalle({

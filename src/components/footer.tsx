@@ -56,33 +56,48 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-20 pt-8 border-t border-bone/15 flex flex-col md:flex-row gap-6 md:items-end md:justify-between text-xs uppercase tracking-widest opacity-60">
-          <div className="flex flex-col gap-1 not-italic">
-            <span>CH construcción</span>
-            <span>Buenos Aires, Argentina</span>
-          </div>
-          <div className="flex flex-col md:items-end gap-1">
-            <a
-              href="mailto:chconstruccion.com"
-              className="hover:text-ochre transition-colors"
-            >
-              contacto@chconstruccion.com
-            </a>
-            <span>+54 11 2706 0258</span>
-          </div>
-          <div className="flex flex-col md:items-end gap-1">
-            <span>© {new Date().getFullYear()} — Todos los derechos</span>
-            <span>
-              Sitio creado por{" "}
-              <a
-                href="https://landing-git-main-veridianware-8799s-projects.vercel.app"                                                                           
-                target="_blank"                                                                                                                                  
-                rel="noopener noreferrer"                                                                                                                        
-                className="text-bone/90 font-medium tracking-wider hover:text-ochre transition-colors"                                                           
-              >                                                                                                                                                  
-                Veridian.                                                                                                                                            
-              </a> 
+        <div className="mt-20 pt-8 border-t border-bone/15 flex flex-col gap-6 text-xs uppercase tracking-widest opacity-60">
+          <div className="opacity-80">
+            Servicio en toda La Matanza ·{" "}
+            <span className="text-bone/70">
+              Ramos Mejía · San Justo · Isidro Casanova · Gregorio de Laferrere ·
+              González Catán · Lomas del Mirador · Villa Madero · La Tablada · Tapiales
             </span>
+          </div>
+
+          <div className="flex flex-col md:flex-row gap-6 md:items-end md:justify-between">
+            <div className="flex flex-col gap-1 not-italic">
+              <span>CH construcción</span>
+              <span>La Matanza · Buenos Aires · Argentina</span>
+            </div>
+            <div className="flex flex-col md:items-end gap-1">
+              <a
+                href="mailto:contacto@chconstruccion.com.ar"
+                className="hover:text-ochre transition-colors"
+              >
+                contacto@chconstruccion.com.ar
+              </a>
+              <a
+                href="tel:+541127060258"
+                className="hover:text-ochre transition-colors"
+              >
+                +54 11 2706 0258
+              </a>
+            </div>
+            <div className="flex flex-col md:items-end gap-1">
+              <span>© {new Date().getFullYear()} — Todos los derechos</span>
+              <span>
+                Sitio creado por{" "}
+                <a
+                  href="https://landing-git-main-veridianware-8799s-projects.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-bone/90 font-medium tracking-wider hover:text-ochre transition-colors"
+                >
+                  Veridian.
+                </a>
+              </span>
+            </div>
           </div>
         </div>
       </div>

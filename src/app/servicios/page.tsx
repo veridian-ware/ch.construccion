@@ -1,10 +1,14 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { services } from "@/lib/data";
 import { Reveal } from "@/components/reveal";
 
-export const metadata = {
-  title: "Servicios — CH construcción"
+export const metadata: Metadata = {
+  title: "Servicios",
+  description:
+    "Construcción, instalaciones eléctricas, muebles a medida y herrería en La Matanza: Ramos Mejía, San Justo, Isidro Casanova y alrededores.",
+  alternates: { canonical: "https://chconstruccion.com.ar/servicios" }
 };
 
 export default function ServiciosPage() {

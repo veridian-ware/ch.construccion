@@ -29,13 +29,18 @@ export function Manifesto() {
             [ 2025 — {new Date().getFullYear()} ]
           </span>
         </div>
-        <div className="md:col-span-8">
+        <div className="md:col-span-8 space-y-10">
           <p className="font-display text-3xl md:text-5xl lg:text-6xl tracking-tighter leading-[1.05] balance">
             CH construcción cree en{" "}
             <span className="italic text-ochre">el enfoque al detalle </span>: la del
             artesano que mide tres veces, la del electricista que enrosca con
             calma, la del arquitecto que dibuja la última junta. Construimos
             casas, locales y muebles que entienden el tiempo en el que viven.
+          </p>
+          <p className="text-base md:text-lg leading-relaxed opacity-75 max-w-2xl">
+            Nuestro taller está en La Matanza y desde acá llegamos a cada obra.
+            Construimos en Ramos Mejía, San Justo, Isidro Casanova y alrededores.
+            Casas, locales, muebles.
           </p>
         </div>
       </div>
