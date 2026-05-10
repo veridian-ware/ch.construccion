@@ -7,7 +7,7 @@ import { Reveal } from "@/components/reveal";
 export const metadata: Metadata = {
   title: "Servicios",
   description:
-    "Construcción, instalaciones eléctricas, muebles a medida y herrería en La Matanza: Ramos Mejía, San Justo, Isidro Casanova y alrededores.",
+    "Construcción, instalaciones eléctricas y herrería en La Matanza: Ramos Mejía, San Justo, Isidro Casanova y alrededores.",
   alternates: { canonical: "https://chconstruccion.com.ar/servicios" }
 };
 
@@ -23,7 +23,7 @@ export default function ServiciosPage() {
         </h1>
         <p className="mt-10 max-w-xl text-base opacity-80">
           Trabajamos como un solo equipo: arquitectos, electricistas y
-          carpinteros sentados a la misma mesa de obra. Eso significa una sola
+          herreros sentados a la misma mesa de obra. Eso significa una sola
           dirección, una sola entrega y un mismo estándar.
         </p>
       </section>

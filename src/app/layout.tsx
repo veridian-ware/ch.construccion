@@ -23,11 +23,11 @@ const SITE_URL = "https://chconstruccion.com.ar";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "CH Construcción · Refacciones, eléctrica y muebles a medida en La Matanza",
+    default: "CH Construcción · Refacciones, eléctrica y herrería en La Matanza",
     template: "%s · CH Construcción"
   },
   description:
-    "Construcción integral, instalaciones eléctricas y muebles a medida en La Matanza: Ramos Mejía, San Justo, Isidro Casanova, Laferrere, González Catán y Lomas del Mirador. Presupuestos sin cargo.",
+    "Construcción integral, instalaciones eléctricas y herrería en La Matanza: Ramos Mejía, San Justo, Isidro Casanova, Laferrere, González Catán y Lomas del Mirador. Presupuestos sin cargo.",
   keywords: [
     "construcción La Matanza",
     "constructor Ramos Mejía",
@@ -36,8 +36,8 @@ export const metadata: Metadata = {
     "electricista Ramos Mejía",
     "electricista San Justo",
     "electricista Laferrere",
-    "muebles a medida Ramos Mejía",
-    "muebles a medida San Justo",
+    "herrería Ramos Mejía",
+    "herrería San Justo",
     "obra integral La Matanza",
     "refacciones González Catán",
     "constructor zona oeste"
@@ -50,14 +50,14 @@ export const metadata: Metadata = {
     siteName: "CH Construcción",
     title: "CH Construcción · La Matanza, Zona Oeste",
     description:
-      "Construcción, instalaciones eléctricas y muebles a medida en Ramos Mejía, San Justo, Isidro Casanova, Laferrere y alrededores.",
+      "Construcción, instalaciones eléctricas y herrería en Ramos Mejía, San Justo, Isidro Casanova, Laferrere y alrededores.",
     images: [{ url: "/hero.jpg", width: 1200, height: 630, alt: "CH Construcción" }]
   },
   twitter: {
     card: "summary_large_image",
     title: "CH Construcción · La Matanza, Zona Oeste",
     description:
-      "Construcción, instalaciones eléctricas y muebles a medida en La Matanza.",
+      "Construcción, instalaciones eléctricas y herrería en La Matanza.",
     images: ["/hero.jpg"]
   },
   robots: {
@@ -101,7 +101,6 @@ const localBusinessJsonLd = {
     "Construcción",
     "Refacciones",
     "Instalaciones eléctricas",
-    "Muebles a medida",
     "Herrería"
   ],
   sameAs: []

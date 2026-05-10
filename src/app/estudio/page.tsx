@@ -8,18 +8,15 @@ export const metadata = {
 const team = [
   { name: "Carlos Heredia", role: "Director — Arquitecto" },
   { name: "Mariela Quiroga", role: "Dirección de obra" },
-  { name: "Tomás Linares", role: "Jefe de taller" },
   { name: "Sebastián Ortiz", role: "Instalaciones eléctricas" },
-  { name: "Ana Fernández", role: "Diseño de interiores" },
-  { name: "Pablo Cattáneo", role: "Carpintero senior" }
+  { name: "Ana Fernández", role: "Diseño de interiores" }
 ];
 
 const milestones = [
-  { year: "2008", text: "Carlos abre el primer taller en Caballito." },
+  { year: "2008", text: "Carlos abre el primer estudio en Caballito." },
   { year: "2013", text: "Sumamos área de instalaciones eléctricas certificadas." },
   { year: "2017", text: "Mudanza al estudio actual en Villa Crespo." },
-  { year: "2021", text: "Inauguramos el taller de carpintería de 600 m²." },
-  { year: "2025", text: "Cuatro disciplinas, un solo equipo." }
+  { year: "2025", text: "Tres disciplinas, un solo equipo." }
 ];
 
 export default function EstudioPage() {
@@ -33,9 +30,9 @@ export default function EstudioPage() {
           Un equipo que <span className="italic">dibuja, construye y termina</span>.
         </h1>
         <p className="mt-10 max-w-xl text-base opacity-80">
-          CH es un estudio y taller fundado en 2008. Diseñamos arquitectura,
-          ejecutamos obra, instalamos sistemas y fabricamos cada mueble que
-          entregamos. Esa integración no es operativa: es cultural.
+          CH es un estudio fundado en 2008. Diseñamos arquitectura, ejecutamos
+          obra e instalamos sistemas. Esa integración no es operativa: es
+          cultural.
         </p>
       </section>
 
@@ -43,7 +40,7 @@ export default function EstudioPage() {
         <div className="relative aspect-[16/9] md:aspect-[21/9] w-full overflow-hidden">
           <Image
             src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=2400&q=80"
-            alt="Taller CH construcción"
+            alt="Estudio CH construcción"
             fill
             sizes="100vw"
             className="object-cover"
@@ -73,8 +70,8 @@ export default function EstudioPage() {
                 d: "Elegimos maderas, piedras y metales que envejecen bien. Preferimos lo que cambia con el tiempo."
               },
               {
-                t: "Taller propio",
-                d: "Fabricar lo que diseñamos nos permite resolver lo que otros no pueden cotizar."
+                t: "Equipo propio",
+                d: "Ejecutar con nuestro propio equipo nos permite resolver lo que otros no pueden cotizar."
               }
             ].map((p, i) => (
               <Reveal key={p.t} delay={i * 0.05}>

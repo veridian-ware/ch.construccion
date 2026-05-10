@@ -77,8 +77,8 @@ export function Hero() {
           >
             <p className="font-display max-w-md text-sm md:text-base leading-[0.88] tracking-tightest opacity-80 balance">
               Somos un grupo que construye cada detalle bajo el mismo techo.
-              Construcción, instalaciones y muebles a medida, pensados como una
-              sola pieza.
+              Construcción, instalaciones eléctricas y herrería, pensadas como
+              una sola pieza.
             </p>
           </motion.div>
         </div>

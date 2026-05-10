@@ -54,24 +54,8 @@ export const services: Service[] = [
     image: "/instalaciones-electricas.jpg"
   },
   {
-    slug: "muebles-a-medida",
-    index: "03",
-    name: "Muebles a medida",
-    tagline: "Carpintería que recuerda al oficio.",
-    description:
-      "Diseñamos y fabricamos cada pieza desde nuestro taller. Maderas nobles, herrajes alemanes y un dibujo técnico que respeta cada centímetro del espacio donde vivirá el mueble.",
-    capabilities: [
-      "Cocinas y vestidores",
-      "Bibliotecas y placards",
-      "Mobiliario comercial",
-      "Diseño y render previo",
-      "Instalación in situ"
-    ],
-    image: "/muebles-a-medida.jpg"
-  },
-  {
     slug: "herreria",
-    index: "04",
+    index: "03",
     name: "Herrería",
     tagline: "Hierro forjado, dibujo cuidado.",
     description:
@@ -114,18 +98,6 @@ export const projects: Project[] = [
       "Refacción profunda de un galpón de 1920. Estructura metálica vista, carpintería de cedro y un sistema lumínico que convierte el espacio según la hora."
   },
   {
-    slug: "cocina-tornero",
-    title: "Cocina Tornero",
-    client: "Privado",
-    location: "Pilar, Buenos Aires",
-    year: "2024",
-    category: "Mueble a medida",
-    image:
-      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1800&q=80",
-    blurb:
-      "Cocina monolítica de 6 metros, frentes de petiribí y mesada de granito serrano. Cada cajón se apoya sobre guías Blum tándem."
-  },
-  {
     slug: "atelier-noma",
     title: "Atelier Noma",
     client: "Noma Estudio",
@@ -149,18 +121,6 @@ export const projects: Project[] = [
     blurb:
       "Casa de fin de semana con cubierta verde y revestimiento de piedra local. Eficiencia energética como punto de partida del proyecto."
   },
-  {
-    slug: "biblioteca-borges",
-    title: "Biblioteca Borges",
-    client: "Privado",
-    location: "Belgrano, CABA",
-    year: "2023",
-    category: "Mueble a medida",
-    image:
-      "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?auto=format&fit=crop&w=1800&q=80",
-    blurb:
-      "Biblioteca de 9 metros lineales en cedro macizo, con escalera de hierro plegable y nichos para 1.200 libros."
-  }
 ];
 
 export const navLinks = [

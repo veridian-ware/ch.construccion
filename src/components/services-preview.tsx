@@ -19,7 +19,7 @@ export function ServicesPreview() {
               [ Servicios ]
             </span>
             <h2 className="font-display text-3xl md:text-5xl tracking-tighter max-w-2xl text-right balance">
-              Cuatro disciplinas, <span className="italic">una misma mano</span>.
+              Tres disciplinas, <span className="italic">una misma mano</span>.
             </h2>
           </div>
         </Reveal>

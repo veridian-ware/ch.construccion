@@ -32,7 +32,7 @@ export function Manifesto() {
         <div className="md:col-span-8 space-y-10">
           <p className="font-display text-3xl md:text-5xl lg:text-6xl tracking-tighter leading-[1.05] balance">
             CH construcción está en La Matanza y desde acá llegamos a cada obra.{" "} Construimos
-            casas, locales y muebles que entienden el tiempo en el que viven.
+            casas y locales que entienden el tiempo en el que viven.
           </p>
         </div>
       </div>

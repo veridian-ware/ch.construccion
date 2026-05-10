@@ -5,7 +5,7 @@ import { Reveal } from "./reveal";
 const stats = [
   { n: "180+", label: "Proyectos entregados" },
   { n: "16", label: "Años de oficio" },
-  { n: "9", label: "Manos en el taller" },
+  { n: "9", label: "Manos en obra" },
   { n: "100%", label: "Obras certificadas" }
 ];
 

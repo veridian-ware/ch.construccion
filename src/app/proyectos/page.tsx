@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { projects } from "@/lib/data";
 import { Reveal } from "@/components/reveal";
 
-const categories = ["Todos", "Vivienda", "Reforma", "Mueble a medida", "Comercial"];
+const categories = ["Todos", "Vivienda", "Reforma", "Comercial"];
 
 export default function ProyectosPage() {
   const [filter, setFilter] = useState("Todos");
