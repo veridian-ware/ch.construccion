@@ -64,8 +64,7 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
     googleBot: { index: true, follow: true, "max-image-preview": "large" }
-  },
-  icons: { icon: "/favicon.ico" }
+  }
 };
 
 const localBusinessJsonLd = {
@@ -113,10 +112,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es-AR" className={`${display.variable} ${sans.variable}`}>
-      <body className="font-sans antialiased">
+      <body className="relative font-sans antialiased">
         <SmoothScroll />
         <Nav />
-        <main className="min-h-screen">{children}</main>
+        <main className="relative min-h-screen">{children}</main>
         <Footer />
         <script
           type="application/ld+json"

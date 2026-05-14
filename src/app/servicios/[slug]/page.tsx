@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { services, projects } from "@/lib/data";
-import { Reveal } from "@/components/reveal";
+import { services } from "@/lib/data";
+import { CapabilityItem } from "@/components/capability-item";
 
 export function generateStaticParams() {
   return services.map((s) => ({ slug: s.slug }));
@@ -40,8 +40,6 @@ export default async function ServicioDetalle({
 
   const next =
     services[(services.findIndex((s) => s.slug === slug) + 1) % services.length];
-
-  const related = projects.slice(0, 3);
 
   return (
     <>
@@ -91,16 +89,7 @@ export default async function ServicioDetalle({
           <div className="md:col-span-8">
             <ul className="grid sm:grid-cols-2 gap-x-10 gap-y-2">
               {service.capabilities.map((c, i) => (
-                <Reveal key={c} delay={i * 0.05}>
-                  <li className="border-t border-ink/15 py-4 flex items-baseline gap-4">
-                    <span className="opacity-50 text-xs tabular-nums">
-                      {String(i + 1).padStart(2, "0")}
-                    </span>
-                    <span className="font-display text-2xl md:text-3xl tracking-tighter">
-                      {c}
-                    </span>
-                  </li>
-                </Reveal>
+                <CapabilityItem key={c} label={c} index={i} />
               ))}
             </ul>
           </div>

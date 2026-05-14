@@ -20,7 +20,8 @@ export function Hero() {
       new Intl.DateTimeFormat("es-AR", {
         timeZone: "America/Argentina/Buenos_Aires",
         hour: "2-digit",
-        minute: "2-digit"
+        minute: "2-digit",
+        hour12: false
       }).format(new Date());
     setTime(fmt());
     const id = setInterval(() => setTime(fmt()), 30_000);
@@ -46,7 +47,7 @@ export function Hero() {
 
       <motion.div
         style={{ opacity }}
-        className="relative z-10 h-full container-edge flex flex-col justify-between pt-32 pb-10"
+        className="relative z-10 h-full container-edge flex flex-col justify-between pt-28 md:pt-32 pb-28 md:pb-24"
       >
         <div className="flex items-start justify-end text-xs uppercase tracking-widest">
           <div className="hidden md:flex flex-col items-end">
@@ -73,9 +74,9 @@ export function Hero() {
             initial={{ y: 30, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 1, delay: 0.6, ease: [0.16, 1, 0.3, 1] }}
-            className="mt-10"
+            className="mt-8 md:mt-10"
           >
-            <p className="font-display max-w-md text-sm md:text-base leading-[0.88] tracking-tightest opacity-80 balance">
+            <p className="max-w-md text-sm md:text-base leading-snug opacity-85 balance">
               Somos un grupo que construye cada detalle bajo el mismo techo.
               Construcción, instalaciones eléctricas y herrería, pensadas como
               una sola pieza.
@@ -86,13 +87,13 @@ export function Hero() {
 
       <motion.div
         style={{ opacity }}
-        className="absolute bottom-6 left-1/2 -translate-x-1/2 z-10 text-[10px] uppercase tracking-[0.3em] flex flex-col items-center gap-2 text-bone/70"
+        className="absolute bottom-5 right-6 md:right-10 lg:right-14 z-10 text-[10px] uppercase tracking-[0.3em] flex items-center gap-3 text-bone/70"
       >
         <span>Desplazar</span>
         <motion.span
           animate={{ y: [0, 8, 0] }}
           transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-          className="block h-6 w-px bg-bone/60"
+          className="block h-5 w-px bg-bone/60"
         />
       </motion.div>
     </section>

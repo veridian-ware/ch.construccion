@@ -35,13 +35,13 @@ export default function ContactoPage() {
               Hablemos
             </div>
             <a
-              href="mailto:hola@chconstruccion.com"
-              className="mt-2 block font-display text-2xl tracking-tighter hover:text-ochre transition-colors"
+              href="mailto:contacto@chconstruccion.com.ar"
+              className="mt-2 block font-display text-2xl tracking-tighter hover:text-ochre transition-colors break-all"
             >
-              hola@chconstruccion.com
+              contacto@chconstruccion.com.ar
             </a>
             <a
-              href="tel:+541100000000"
+              href="tel:+541127060258"
               className="mt-1 block font-display text-2xl tracking-tighter hover:text-ochre transition-colors"
             >
               +54 11 2706 0258

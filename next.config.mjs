@@ -5,6 +5,9 @@ const nextConfig = {
       { protocol: "https", hostname: "images.unsplash.com" },
       { protocol: "https", hostname: "plus.unsplash.com" }
     ]
+  },
+  async rewrites() {
+    return [{ source: "/favicon.ico", destination: "/icon.svg" }];
   }
 };
 

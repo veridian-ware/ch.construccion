@@ -34,3 +34,12 @@ yarn-error.log*
 # dev server artifacts
 dev.log
 dev.pid
+
+# playwright / screenshots de testing local
+/.playwright-mcp/
+/*.jpg
+/*.jpeg
+/*.png
+!/public/*.jpg
+!/public/*.jpeg
+!/public/*.png
