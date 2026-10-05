@@ -89,7 +89,7 @@ export function Footer() {
               <span>
                 Sitio creado por{" "}
                 <a
-                  href="https://landing-git-main-veridianware-8799s-projects.vercel.app"
+                  href="https://veridian-ware.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-bone/90 font-medium tracking-wider hover:text-ochre transition-colors"
